@@ -32,12 +32,32 @@ input{
 
 }
 .boton{
+    display: block;
     font-family: sans-serif;
     text-transform: uppercase;
     outline: 0;
     background-color: #d4d4dd;
     width: 100%;
-    border: 0;
+    border: 1px solid black;
+    padding: 15px;
+}
+.boton:hover{
+    background-color: transparent;
+    border: 2px solid rosybrown;
+    color: black;
+}
+.littlehaeri:hover{
+    background-color: transparent;
+    border: 2px solid rosybrown;
+    color: black;
+}
+.littlehaeri{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #d4d4dd;
+    width: 100%;
+    border: 1px solid black;
     padding: 15px;
 }
 .form-group{

@@ -13,7 +13,7 @@
     height: 100vh;
 }  
 body{
-    background-image: url(salles.jpg);
+    background-image: url(salle.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,15 +31,21 @@ input{
     font-size: 18px;
 
 }
-.boton{
+.littlehaeri:hover{
+    background-color: transparent;
+    border: 2px solid rosybrown;
+    color: black;
+}
+.littlehaeri{
     font-family: sans-serif;
     text-transform: uppercase;
     outline: 0;
     background-color: #d4d4dd;
     width: 100%;
-    border: 0;
+    border: 2px solid black;
     padding: 15px;
 }
+
 .form-group{
     display: flex;
     flex-direction: column;
