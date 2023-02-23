@@ -41,6 +41,7 @@ input{
     border: 1px solid black;
     padding: 15px;
 }
+
 .boton:hover{
     background-color: transparent;
     border: 2px solid rosybrown;
