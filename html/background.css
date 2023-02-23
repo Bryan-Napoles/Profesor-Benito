@@ -13,7 +13,7 @@
     height: 100vh;
 }  
 body{
-    background-image: url(salles.jpg);
+    background-color: rgb(235, 175, 127);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +23,7 @@ body{
 input{
     outline: 0;
     background-color: hsl(0, 0%, 100%);
-    width: 100%;
+    width: 120%;
     border: 100%;
     margin: 20px;
     box-sizing: border-box;
