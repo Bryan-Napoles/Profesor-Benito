@@ -11,25 +11,32 @@
 
 </head> 
 <body>
+    
     <div class = "containerPrincipal">
         <div class = "form-group">
             <h2>Nuevo usuario</h2>
-            <input id ="usuario" type="text" class="form-control" name="usarme"  placeholder="Escribe tu nuevo correo electronico">
-            <input id ="usuario" type="text" class="form-control" name="usarme"  placeholder="Crea una contraseña">
-            <input id ="contraseña" type ="password" class="form-control" placeholder ="Repite la contraseña">
-            <br>
-            <button id="boton" class="boton" onclick="background()">Crear cuenta</button>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Inserte su correo">
+            </div>
+            <div>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+        
+            </div>
+            <button onclick="registerUser()">Registrar</button>
             <a id="littlehaeri" href="index.html" class="littlehaeri" onclick="background()">Regresar a la pantalla principal</a>
 
         </div>
         
     </div>
     
-    <script src="Comando interfax.js"></script> 
-    <script src="Alumno.js"></script> 
+    <script src="../Javascript/Alumno.js"></script> 
     <header class="container">
         <div class="wave"></div>
-    </header>
+    <script src="../Login/Helper.js"></script>
+    <script src="../Login/User.js"></script>
+    <script src="../Login/register.js"></script>
 </body>
 </html>
 

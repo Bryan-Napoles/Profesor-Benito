@@ -1,4 +1,4 @@
-class Alumno extends Persona {
+class Alumno extends Persona{
     nombre;
     pellido_materno;
     apellido_paterno;
