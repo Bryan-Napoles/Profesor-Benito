@@ -1,11 +1,10 @@
-class Persona {
+export class Persona{
     name;
     date;
     nombre;
     date;
     email;
     apellidos;
-
     fecha_nacimiento;
     
 
@@ -35,3 +34,4 @@ class Persona {
         return edads;
     }
 }
+

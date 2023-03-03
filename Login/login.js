@@ -1,6 +1,6 @@
-var  users = Helper.getUsersFromLocalStorage();
+var users = Helper.getUsersFromLocalStorage();
 
-function logiUser(){
+function loginUser(){
     let user = document.getElementById('email');
     let pass = document.getElementById('password');
 
@@ -9,7 +9,7 @@ function logiUser(){
     if( login != true){
         alert(login);
     }else{
-        window.location.href ="register.html";
+        window.location.href ="registrarse.html";
     }
     
 }

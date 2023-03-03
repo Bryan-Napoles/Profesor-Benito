@@ -1,4 +1,6 @@
-class Alumno extends Persona{
+import { Persona } from './Persona.js';
+const person = new Persona ();
+class Alumno extends Person{
     nombre;
     pellido_materno;
     apellido_paterno;
@@ -7,8 +9,7 @@ class Alumno extends Persona{
     usuario;
     password;
     
-    
-    constructor(nombre, apellido_materno, apellido_paterno,matricula,grupo,usuario,passwordo) {
+    constructor(nombre, apellido_materno, apellido_paterno,matricula,grupo,usuario,password) {
 
         super(nombre, apellido_materno, apellido_paterno,matricula,grupo);
         this.nombre = nombre;
@@ -17,8 +18,10 @@ class Alumno extends Persona{
         this.matricula = matricula;
         this.grupo = grupo;
         this.usuario=usuario;
-        this.password=passwordo;
+        this.password=password;
     }
+
+
     /**
      * 
      * @param {Grupo} grupo 

@@ -33,16 +33,16 @@ input{
 }
 .littlehaeri:hover{
     background-color: transparent;
-    border: 2px solid rosybrown;
-    color: black;
+    border: 2px solid rgb(236, 80, 80);
+    color: rgb(255, 0, 0);
 }
 .littlehaeri{
     font-family: sans-serif;
     text-transform: uppercase;
     outline: 0;
-    background-color: #d4d4dd;
+    background-color: #ffffff;
     width: 100%;
-    border: 2px solid ;
+    border: 2px solid rgb(250, 67, 61);
     padding: 15px;
 }
 
@@ -53,7 +53,7 @@ input{
     align-items: center;
     position: relative;
     z-index: 1;
-    background-color: #fffab5;
+    background-color: #1279b4;
     max-width: 360px;
     padding: 45px;
     text-align: center;
