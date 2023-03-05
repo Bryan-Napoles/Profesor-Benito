@@ -7,7 +7,7 @@ class User {
     NSS;
     fecha_nacimiento;
 
-    constructor(name, password, names, apellidop, apellidom, f_nac){
+    constructor(name, password, names, apellidop, apellidom, NSS, f_nac){
         this.email = name;
         this.password = password;
         this.nombre =  names;
