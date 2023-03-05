@@ -1,6 +1,5 @@
-import { Persona } from './Persona.js';
-const person = new Persona ();
-class Alumno extends Person{
+
+class Alumno extends Persona{
     nombre;
     pellido_materno;
     apellido_paterno;

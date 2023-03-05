@@ -1,9 +1,22 @@
 class User {
     email;
     password;
-    constructor(name, password){
+    nombre;
+    apellidoap;
+    apellidoam;
+    NSS;
+    fecha_nacimiento;
+
+    constructor(name, password, names, apellidop, apellidom, f_nac){
         this.email = name;
-        this.password = password; 
+        this.password = password;
+        this.nombre =  names;
+        this.apellidoap = apellidop;
+        this.apellidoam = apellidom;
+        this.NSS = NSS;
+        this.fecha_nacimiento = f_nac;
+
+
     }
     
     /**
