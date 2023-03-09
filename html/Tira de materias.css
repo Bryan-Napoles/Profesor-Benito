@@ -1,11 +1,90 @@
 body{
-    background-color: rgb(28, 132, 192);
+    background-color: rgb(28, 85, 192);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-button{
-    background-color: aqua;
-    background-position: right top;
+h1{
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+legend{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+
+}
+
+select{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(199, 44, 44);
+    
+}
+
+h3{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+label{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.littlehaeri:hover{
+    background-color: transparent;
+    border: 2px solid rosybrown;
+    color: black;
+}
+.littlehaeri{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #d4d4dd;
+    width: 100%;
+    border: 1px solid rgb(167, 97, 97);
+    padding: 15px;
+    text-decoration: blue;
+}
+input:hover{
+    background-color: transparent;
+    border: 2px solid rosybrown;
+    color: black;
+}
+input{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #d4d4dd;
+    width: 10%;
+    border: 1px solid rgb(167, 97, 97);
+    padding: 15px;
+    text-decoration: blue;
+}
+a:hover{
+    background-color: transparent;
+    border: 2px solid rosybrown;
+    color: black;
+}
+a{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #d4d4dd;
+    width: 100%;
+    border: 1px solid rgb(167, 97, 97);
+    padding: 15px;
+    text-decoration: blue;
 }
