@@ -5,7 +5,7 @@ class Helper{
         if(arrayUsers != null){
             if(arrayUsers.length!= 0){
                 arrayUsers.forEach(userarray => {
-                    let user2 =new User(userarray.email, userarray.password);
+                    let user2 =new User(userarray.email, userarray.password, userarray.nombre);
                     users.push(user2);
                 });
             }

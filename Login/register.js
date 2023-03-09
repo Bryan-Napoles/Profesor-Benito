@@ -19,6 +19,11 @@ function registerUser(){
         alert("Usuario Registrado");
         user.value="";
         pass.value="";
+        nom.value="";
+        ap.value="";
+        am.value="";
+        nss.value="";
+        fech.value="";
     }else{
         alert("El usuario ya se encuentra registrado");
     }

@@ -10,6 +10,6 @@ function loginUser(){
     if( login != true){
         alert(login);
     }else{
-        window.location.href ="indice.html";
+        window.location.href ="Experimento.html";
     }
 }

@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(28, 132, 192);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+button{
+    background-color: aqua;
+    background-position: right top;
+}
